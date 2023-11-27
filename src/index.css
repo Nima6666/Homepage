@@ -75,14 +75,13 @@ nav > li {
   list-style: none;
   z-index: 2;
 }
+nav > li:hover {
+  cursor: pointer;
+}
 
 li > p {
   color: white;
   pointer-events: none;
-}
-
-li > p:hover {
-  cursor: pointer;
 }
 
 #me {
