@@ -41,8 +41,6 @@ export default function Header() {
   }, []);
 
   function handleHeadClick(e) {
-    console.log(e.target.id);
-
     if (e.target.id == "homeHead") {
       window.scrollTo({
         top: 0,
