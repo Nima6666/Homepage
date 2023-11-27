@@ -2,6 +2,7 @@ import todoImg from "../assets/projectTodo.png";
 import weatherImg from "../assets/projectWeather.png";
 import CVImg from "../assets/projectCV.png";
 import libraryImg from "../assets/projectLibrary.png";
+import memoryImg from "../assets/projectMemory.png";
 
 const projects = [
   {
@@ -11,6 +12,14 @@ const projects = [
     url: "https://nima6666.github.io/Weather/",
     github: "https://github.com/Nima6666/Weather",
     img: weatherImg,
+  },
+  {
+    title: "Memory Game",
+    description:
+      "Embark on a cognitive journey with my Memory Game, a classic and engaging activity designed to challenge and enhance your memory prowess.",
+    url: "https://nima6666.github.io/Memory/",
+    github: "https://github.com/Nima6666/Memory",
+    img: memoryImg,
   },
   {
     title: "Todos",
