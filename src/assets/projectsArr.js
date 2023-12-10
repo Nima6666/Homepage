@@ -3,8 +3,17 @@ import weatherImg from "../assets/projectWeather.png";
 import CVImg from "../assets/projectCV.png";
 import libraryImg from "../assets/projectLibrary.png";
 import memoryImg from "../assets/projectMemory.png";
+import shopImg from "../assets/shop.png";
 
 const projects = [
+  {
+    title: "Shop",
+    description:
+      "Introducing our Shop App, a seamless platform where shopping becomes a breeze. . Made using React + Vite, React Router.",
+    url: "https://shop17179.netlify.app/",
+    github: "https://github.com/Nima6666/SHOP",
+    img: shopImg,
+  },
   {
     title: "Weather App",
     description:
